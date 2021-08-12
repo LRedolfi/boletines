@@ -1,3 +1,15 @@
+/*
+    Negro: #121619ff
+    Verde: #2d4739ff
+    Verde agua: #09814aff
+    Turquesa: #80ffecff
+    Dorado: #e5c687ff
+*/
+.container{
+    background: #2d4739ff;
+    background: -webkit-linear-gradient(to left,#2d4739ff,#e5c687ff);
+    background: linear-gradient(to left,#2d4739ff,#e5c687ff);
+}
 td{
     border: solid 1px;
 }
