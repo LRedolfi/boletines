@@ -5,6 +5,10 @@
     Turquesa: #80ffecff
     Dorado: #e5c687ff
 */
+html{
+    font-family: 'Rubik', sans-serif;
+}
+
 .container{
     background: #2d4739ff;
     background: -webkit-linear-gradient(to left,#2d4739ff,#e5c687ff);
