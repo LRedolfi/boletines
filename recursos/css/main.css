@@ -35,6 +35,7 @@ a{
     width: 100%;
     height: 100%;
     background-color: azure;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .parrafo{
@@ -53,4 +54,11 @@ a{
 
 .tabla tr:nth-child(even){
     background-color: #80ffecff;
+}
+
+.titulo-item{
+    border-bottom-style: solid;
+    border-color: #e5c687ff;
+    border-width: 2px;
+    padding-bottom: 1em;
 }
