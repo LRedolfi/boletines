@@ -19,6 +19,7 @@ a{
 }
 .titulo{
     text-transform: uppercase;
+    text-align: center;
 }
 .container{
     background: #2d4739ff;
@@ -38,6 +39,7 @@ a{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border-radius: 4px;
     position: relative;
+    padding: 1.8em;
 }
 
 .acciones{
@@ -85,6 +87,7 @@ a{
     border-width: 2px; */
     border-bottom: solid 2px #e5c687ff;
     padding-bottom: 1em;
+    font-size: 2em;
 }
 
 .posicion{
@@ -92,4 +95,17 @@ a{
     color: white;
     padding: 10px;
     border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+.direccion{
+    font-weight: bold;
+    color: #2d4739ff;
+    font-size: 1.2em;
+}
+
+.imagen{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
 }
