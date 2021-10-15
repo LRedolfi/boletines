@@ -42,8 +42,23 @@ img{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border-radius: 4px;
     position: relative;
-    padding: 1.8em;
     overflow: scroll;
+}
+
+.content{
+    padding: 1em;
+}
+td{
+    display: block;
+    width: 100%;
+}
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2d4739ff;
+}
+th{
+    display: none;
 }
 
 .acciones{
@@ -122,20 +137,20 @@ img{
     }
 }
 
-@media (max-width:600px) {
+@media (min-width:900px) {
     .content{
-        padding: 1em;
+        padding: 1.8em;
     }
     td{
-        display: block;
-        width: 100%;
-    }
-    td:nth-of-type(1){
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #2d4739ff;
+        display: table-cell;
+        width: auto;
     }
     th{
-        display: none;
+        display: table-cell;
+    }
+    td:nth-of-type(1){
+        font-size: 1em;
+        font-weight: normal;
+        color: black;
     }
 }
