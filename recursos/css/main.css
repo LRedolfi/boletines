@@ -40,6 +40,7 @@ a{
     border-radius: 4px;
     position: relative;
     padding: 1.8em;
+    overflow: scroll;
 }
 
 .acciones{
@@ -93,7 +94,7 @@ a{
 .posicion{
     background-color: #e5c687ff;
     color: white;
-    padding: 10px;
+    padding: 0.5em;
     border-radius: 4px;
     margin-right: 0.5em;
 }
@@ -102,6 +103,8 @@ a{
     font-weight: bold;
     color: #2d4739ff;
     font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
 }
 
 .imagen{
