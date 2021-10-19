@@ -1,6 +1,6 @@
-console.log("Hola desde archivo")
-
 //DOM
-let tabla = document.querySelector(".tabla")
+let links=document.querySelectorAll("a");
 
-console.log(tabla)
+links.forEach(function(link){
+    console.log(link);
+});
