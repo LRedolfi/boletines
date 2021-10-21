@@ -15,7 +15,7 @@ links.forEach(function(link){
         contenido.classList.add("animate__fadeOutUp");
 
         setTimeout(function(){
-            location.href="/";
-        },500)
+            location.href="/boletines";
+        },500);
     });
 });
