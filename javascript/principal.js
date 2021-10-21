@@ -13,5 +13,9 @@ links.forEach(function(link){
         //Agregar clase de animacion para salida animate__fadeInUp
         contenido.classList.add("animate__animated");
         contenido.classList.add("animate__fadeOutUp");
+
+        setTimeout(function(){
+            location.href="/";
+        },500)
     });
 });
